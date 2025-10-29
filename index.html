@@ -3,16 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My GitHub Pages Site</title>
+  <title>Room Rental — Home</title>
   <style>
-    body { font: 16px/1.5 system-ui, sans-serif; margin: 2rem; max-width: 60ch; }
+    body { 
+      font: 16px/1.5 system-ui, sans-serif; 
+      margin: 2rem; 
+      max-width: 60ch; 
+    }
     h1 { margin-bottom: 0.25rem; }
+    nav { margin-bottom: 1rem; }
+    nav a {
+      text-decoration: none;
+      color: #2563eb;
+      margin-right: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     .muted { color: #666; }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+  </nav>
+
   <h1>Hello, world!</h1>
   <p class="muted">Served by GitHub Pages.</p>
   <p>Edit <code>index.html</code> in your repository to update this page.</p>
+  <p>Learn more <a href="./about.html">about this site</a>.</p>
 </body>
 </html>
