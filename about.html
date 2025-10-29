@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Room Rental</title>
+  <meta name="description" content="About page for Room Rental — fictional team and mission." />
+  <style>
+    :root{--bg:#f7f7fb;--card:#ffffff;--muted:#6b7280;--accent:#4f46e5}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#111;margin:0;padding:2rem}
+    .container{max-width:900px;margin:0 auto}
+    header{display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{margin:0;font-size:1.5rem}
+    p.lead{margin:0;color:var(--muted)}
+    .card{background:var(--card);border-radius:12px;padding:1.25rem;box-shadow:0 6px 18px rgba(16,24,40,0.08);margin-top:1rem}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:1rem}
+    .profile{display:flex;gap:1rem;align-items:center}
+    .avatar{width:72px;height:72px;border-radius:8px;background:linear-gradient(135deg,#f59e0b,#f97316);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:1.25rem}
+    .muted{color:var(--muted)}
+    ul.facts{padding-left:1.1rem;margin:0}
+    .stats{display:flex;gap:1rem;margin-top:1rem}
+    .stat{flex:1;background:#fbfdff;padding:0.75rem;border-radius:8px;text-align:center}
+    footer{margin-top:2rem;color:var(--muted);font-size:0.9rem}
+    .cta{display:inline-block;margin-top:1rem;padding:0.6rem 0.9rem;border-radius:8px;background:var(--accent);color:white;text-decoration:none}
+    code{background:#f3f4f6;padding:0.15rem 0.3rem;border-radius:4px;font-family:monospace}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.profile{flex-direction:row}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">RR</div>
+      <div>
+        <h1>About Room Rental</h1>
+        <p class="lead">A tiny team building simple &amp; friendly tools for finding a room — fictional demo content.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>Our mission</h2>
+          <p class="muted">We aim to make finding a room less stressful by creating clear listings, honest photos, and human support. This is a demo <em>about</em> page with placeholder content — perfect for testing GitHub Pages, redirects, or UI layout.</p>
+
+          <h3 style="margin-top:1rem">Who we are</h3>
+          <div class="profile">
+            <div class="avatar">NP</div>
+            <div>
+              <strong>Nico Pillon</strong>
+              <div class="muted">Founder &amp; Chief Tidy Plate Organizer</div>
+              <p class="muted" style="margin-top:0.5rem;">Nico likes structured data, good coffee, and writing clear README files. He built this demo to show how a GitHub Pages project can be linked to a custom domain.</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top:1rem">A few fun (fake) facts</h3>
+          <ul class="facts">
+            <li>Founded in <strong>2023</strong> in a tiny living room.</li>
+            <li>Over <strong>1,234</strong> listings created in demo mode.</li>
+            <li>99.9% uptime—unless the cat sits on the laptop.</li>
+          </ul>
+
+          <div class="stats" aria-hidden>
+            <div class="stat">
+              <div style="font-weight:700">4.8</div>
+              <div class="muted">Average host rating</div>
+            </div>
+            <div class="stat">
+              <div style="font-weight:700">320</div>
+              <div class="muted">Active demo listings</div>
+            </div>
+            <div class="stat">
+              <div style="font-weight:700">12</div>
+              <div class="muted">Team members (imaginary)</div>
+            </div>
+          </div>
+
+          <h3 style="margin-top:1rem">Contact</h3>
+          <p class="muted">This page is fictional. But if it weren't, you could reach us at <code>hello@nicopillon.com</code> (note: not a working address).</p>
+
+          <a class="cta" href="/">Back to home</a>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card">
+          <h4>Quick links</h4>
+          <nav class="muted" style="margin-top:0.5rem">
+            <ul style="margin:0;padding-left:1.1rem">
+              <li><a href="/">Home</a></li>
+              <li><a href="/room-rental/">Listings</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <h4 style="margin-top:1rem">Demo warning</h4>
+          <p class="muted">This is placeholder content intended for development and testing. Replace any personal data with real content before publishing publicly.</p>
+        </div>
+
+        <div class="card" style="margin-top:1rem">
+          <h4>Changelog</h4>
+          <p class="muted" style="margin:0">v0.1 — Demo about page created.</p>
+          <p style="margin-top:0.5rem"><small class="muted">Last updated: <!-- inserted by author --> 2025-10-29</small></p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="muted">Built with ❤️ — this page is fictional and safe to delete or edit. If you named the file <code>about.htlm</code> intentionally, consider renaming to <code>about.html</code> so browsers render it correctly.</div>
+    </footer>
+  </div>
+</body>
+</html>
